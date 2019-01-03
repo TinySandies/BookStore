@@ -1,6 +1,6 @@
 var E = false, R = false, P = false, V = false, N = false;
 
-//邮箱验证
+//注册
 $(function() {
     $("#btnClientRegister").click(function() {
         return (E && R && P && V && N);
@@ -74,7 +74,7 @@ $("#txtEmail").blur(function() {
            {'email': email},
            function(data) {
                if (!data.result) {
-                   info.html("<img src='../../images/my/ajax_ok.png' /> 该Email可用").css("color", "green");
+                   info.html("<img src='../../images/my/ajax_ok.png' /> This Email can be use").css("color", "green");
                    E = true;
                } else {
                    info.text("EMail already exists");

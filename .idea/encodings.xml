@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/com/tiny/filter/EncodingFilter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tiny/servlet/RegisterServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tiny/util/SendEmail.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/css/book.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/web/css/book_head090107.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/web/css/comm_answer.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/web/css/public_footer.css" charset="GBK" />
-    <file url="PROJECT" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/register.js" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -46,7 +46,4 @@ public class SendEmail {
         }
     }
 
-//    public  static void main(String[] args) {
-//        SendEmail.send(toUser, "这是标题", "你好，这是内容");
-//    }
 }

@@ -33,10 +33,10 @@ public class ValidateEmail extends HttpServlet {
             User user = ServiceFactory.getUserService().findByEMail(email);
 
             if (null != user) {
-                System.out.println("user is not NULL");
+//                System.out.println("user is not NULL");
                 json.put("result", true);
             } else {
-                System.out.println("user is NULL");
+//                System.out.println("user is NULL");
                 json.put("result", false);
             }
 

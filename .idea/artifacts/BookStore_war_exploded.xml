@@ -18,6 +18,12 @@
           <element id="library" level="project" name="jstl" />
           <element id="library" level="project" name="standard" />
           <element id="library" level="project" name="mail" />
+          <element id="library" level="project" name="commons-collections-3.1" />
+          <element id="library" level="project" name="commons-email-1.21" />
+          <element id="library" level="project" name="commons-fileupload-1.2.1" />
+          <element id="library" level="project" name="commons-logging-1.0.4" />
+          <element id="library" level="project" name="commons-pool" />
+          <element id="library" level="project" name="fastjson-1.2.54" />
         </element>
       </element>
     </root>

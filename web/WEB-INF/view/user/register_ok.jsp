@@ -43,7 +43,7 @@
 						<a href="#">我的淘书斋</a>”查看并管理您的个人信息
 					</li>
 					<li>
-						<a href="${pageContext.request.contextPath}/main/mainAction">浏览并选购商品</a>
+						<a href="${pageContext.request.contextPath}/main.do">浏览并选购商品</a>
 					</li>
 				</ul>
 			</div>

@@ -98,7 +98,7 @@ public class RegisterServlet extends HttpServlet {
             } else {
                 System.out.println("邮箱验证错误，请重新验证！");
                 request.setAttribute("verify_err", "邮箱验证错误，请重新验证！");
-                request.getRequestDispatcher("/WEB-INF/view/user/register_form2.jsp").forward(request, response);
+                request.getRequestDispatcher("/WEB-INF/view/user/register_form.jsp").forward(request, response);
 //                request.getRequestDispatcher("/WEB-INF/view/user/register_error.jsp").forward(request, response);
             }
         } catch (Exception e) {
