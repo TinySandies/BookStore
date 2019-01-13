@@ -9,9 +9,9 @@ import javax.mail.internet.MimeMultipart;
 import java.util.Properties;
 
 public class SendEmail {
-    private static final String fromUser = "2805363696@qq.com";
+    private static final String fromUser = "QQ Email";
 
-    private static final String auth = "odszazielburddje";
+    private static final String auth = "Authorization code";
 
     public static void send(String toUser, String title, String content) {
         Properties prop = new Properties();
